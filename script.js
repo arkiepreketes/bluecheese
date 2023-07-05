@@ -43,7 +43,7 @@ function updatePlayerScore(playerId, newScore) {
 // Event listener for form submission
 document.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form submission
-
+    alert("Submission accepted, click ok to wait for next message confirmation");
     var players = document.querySelectorAll('h2');
     var promises = [];
 
